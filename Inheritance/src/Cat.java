@@ -10,6 +10,12 @@ public class Cat extends Animal {
 		setName(name);
 		setNeutered(neutered);
 	}//end of constructor
+	
+	public void makeNoise(){
+		System.out.println("Meow meow");
+		
+	}//end of makeNoise
+
 
 
 	public String getName() {

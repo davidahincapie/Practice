@@ -8,6 +8,11 @@ public Dog(int weight, String name){
 	setName(name);
 	}//end of constructor method
 
+public void makeNoise(){
+	System.out.println("Woof woof");
+	
+}//end of makeNoise
+
 public boolean equals(Object obj){
 	if(!(obj instanceof Dog)){
 		return false;
